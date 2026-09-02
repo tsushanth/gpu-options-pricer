@@ -35,7 +35,10 @@ that fall short of the original >20x target.
 | Vast.ai RTX 3060 Ti (rented, $/hr) | 16.2M/sec | 484.0M/sec | **29.9x** | GPU *faster* (19.6x) |
 
 Correctness cross-checked at every grid size on every machine — GPU and
-CPU outputs match to displayed precision throughout.
+CPU outputs match to displayed precision throughout. Raw, unedited
+command output from every run (including the failed one) is in
+[`results/benchmark_log.md`](results/benchmark_log.md) — this table is
+a summary of that, not a replacement for it.
 
 **What actually varies and why:**
 - The Jetson's edge/mobile GPU falls well short of the blueprint's
